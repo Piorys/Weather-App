@@ -1,0 +1,10 @@
+body {
+  background-image: url(https://static.pexels.com/photos/1852/dawn-landscape-mountains-nature.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  font-family: "Lato";
+  background-color: transparent !important;
+}
