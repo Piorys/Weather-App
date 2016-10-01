@@ -1,25 +1,22 @@
-html {
-  background-color: #363377;
+body {
+  background-image: url("https://images3.alphacoders.com/639/639657.jpg");
+  background-size: cover;
 }
 
 
 .weatherbox {
-  margin-top: 10vh;
-  background-color: #363377;
-  font-family: "Lato";
-  color: #827FB2;
+  margin-top: 20vh;
+  font-family: 'Share Tech Mono', monospace;
+  color: #66DE7A;
+  background-color: transparent;
 }
-
 footer {
-  background: #0B083B;
-  color: #827FB2;
   position: absolute;
+  font-family: 'Share Tech Mono', monospace;
+  color: #66DE7A;
   bottom: 0;
   width: 100%;
-  height: 60px;
-  font-family: "Lato";
-}
-#signature {
-  color:#827FB2;
-  font-family: "Meddon";
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: transparent;
 }

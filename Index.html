@@ -3,24 +3,30 @@
 <head>
   <meta charset="utf-8">
   <html lang="pl">
+  <title> RobCo Weather Report </title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="main.js"></script>
-  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Meddon' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+
 </head>
 <body>
   <article class="weatherbox text-center">
-  <h1> The Daily Weather Report </h1>
+  <h1> Robco Weather Report </h1>
     <h2> City: <section id="city"></section> </h2>
-    <h2> Temperature: <section id="temperature"></section></h2>
+    <h2> Temperature:
+      <section id="temperature-celcius"></section>
+      <section id="temperature-farenheit"></section
+
+    </h2>
+    <h2> Radiation: <section id="radiation"> 0,84 μSv/hr</section></h2>
     <h2> Humidity: <section id='humidity'></section></<h2>
     <h2> Overall: <section id='overall'></section></<h2>
     <section id="icon"></section>
 
   </article>
   <footer>
-    <h2 class="text-center"> Made with coffee, patience and pure love by <span id="signature"> Piorys </span> </h2>
+    <h2 class="text-center"> Made with coffee, patience and pure love by Piorys </h2>
   </footer>
 </body>
