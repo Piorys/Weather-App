@@ -1,4 +1,7 @@
 # Weather-App
+
+Live preview: http://codepen.io/piorys/full/bZagoy/
+
 Second intermediate project with freecodecamp
 
 User Story: I can see the weather in my current location.
