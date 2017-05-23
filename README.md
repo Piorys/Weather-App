@@ -2,8 +2,6 @@
 
 Live preview: http://codepen.io/piorys/full/bZagoy/
 
-Second intermediate project with freecodecamp
-
 User Story: I can see the weather in my current location.
 
 User Story: I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
